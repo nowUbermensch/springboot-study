@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<%@ include file="/WEB-INF/jspf/head.jspf"%>
 <title>${status}Error</title>
 </head>
 <body>
-	<%@ include file="/WEB-INF/jspf/nav.jspf"%>
+
 	
 	<header class="intro-header" style="background-image: url('/image/about-bg.jpg')">
         <div class="container">
@@ -33,7 +32,7 @@
 			</div>
 		</div>
 	</div>
-	<%@ include file="/WEB-INF/jspf/footer.jspf"%>
+
 </body>
 </html>
 

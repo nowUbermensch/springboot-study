@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.millky.blog</groupId>
-	<artifactId>spring-blog</artifactId>
+	<groupId>com.skcc.study</groupId>
+	<artifactId>spring-study</artifactId>
 	<version>0.0.20-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>SpringBlog</name>
-	<description>SpringBlog project from Millky</description>
+	<name>SpringStudyg</name>
+	<description>SpringStudyg project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,6 +25,7 @@
 		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
 	</properties>
 
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -34,6 +35,8 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
+		
+		
 		<!-- <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -43,10 +46,7 @@
 			<artifactId>HikariCP</artifactId>
 		</dependency> -->
 		
-		<dependency>
-			<groupId>org.springframework.social</groupId>
-			<artifactId>spring-social-facebook</artifactId>
-		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -116,8 +116,7 @@
 			<artifactId>Autolinker.js</artifactId>
 			<version>0.25.0</version>
 		</dependency>
-
-		<!-- 지금까지 회사에서는 handlebars 를 사용하고 있었지만 여러 플랫폼을 지원해서 사용해보려 함 -->
+		
 		<dependency>
 			<groupId>org.webjars.bower</groupId>
 			<artifactId>mustache</artifactId>
